@@ -33,3 +33,15 @@ Bob (inspired by "Uncle Bob") is the clean code specialist. He is responsible fo
 ## Docs
 
 Copy and paste these docs directly into the root of your project. Some docs are language-specific – promote the `language.md` you want as the `directory-name.md` under the `/docs` folder.
+
+## Town
+
+These are CLAUDE.md files for different roles at the town-level.
+
+### Mayor
+
+These are instructions for the town's Mayor. Drop this in `/<town>/mayor/CLAUDE.md`.
+
+### Rig Instructions
+
+These are rig-level instructions. Fill in the blanks and place it in `/<town>/<rig>/CLAUDE.md`. There are some stack-specific details in here currently - replace this with information for your rig.
