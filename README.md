@@ -35,6 +35,14 @@ Bob (inspired by "Uncle Bob") is the clean code specialist. He is responsible fo
 
 Mutant is responsible for mutation testing, creating mutation testing scripts, and ensuring the test suite is actually testing what it says it is.
 
+## Voices
+
+Some archetypes have optional voices. This is purely cosmetic. `default.md` is the archteype without a specific voice. All other markdown viles are "Voice" snippets that go somewhere in `default.md` to be applied (see below).
+
+### Mutant
+
+Add the "Voice" snippet between "Cardinal Rules" and "Workflow".
+
 ## Docs
 
 Copy and paste these docs directly into the root of your project. Some docs are language-specific – promote the `language.md` you want as the `directory-name.md` under the `/docs` folder.
