@@ -19,8 +19,18 @@ Names are the most important tool for readability. Invest time in them.
 - **Constants** — describe the meaning, not the value. `MAX_LOGIN_ATTEMPTS` not `THREE`.
 - **Avoid abbreviations** unless universally understood (`url`, `id`, `http` are fine; `usr`, `mgr`, `ctx` are not).
 - **Avoid generic names** — `data`, `info`, `item`, `result`, `temp`, `value` almost always have a better name.
+- **React components are PascalCase — always.** Functions that return JSX are components regardless of how they're invoked. Whether called via `.map()`, invoked directly, or rendered as `<Component />`, the invocation style is an implementation detail — the return type determines the convention.
 
 If you need a comment to explain what a variable or function does, the name is wrong. Rename it.
+
+### Framework Conventions Win
+
+When a framework convention conflicts with a general clean-code heuristic, the
+framework convention wins. React has PascalCase for components. CSS Modules have
+camelCase for class names. These conventions aren't just style — they affect tooling
+(React DevTools, Fast Refresh, linter rules), build behavior, and developer
+expectations. A name that's "technically more readable" by general rules but breaks
+framework expectations is not clean — it's wrong.
 
 ## Functions
 

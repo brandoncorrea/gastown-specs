@@ -23,6 +23,14 @@ Names are the most important tool for readability. Invest time in them.
 If you need a comment to explain what a var or function does, the name is wrong.
 Rename it.
 
+### Language Conventions Win
+
+When a Clojure convention conflicts with a general clean-code heuristic from another
+language, the Clojure convention wins. `kebab-case` for everything. `?` suffix for
+predicates. `!` suffix for side-effecting functions. `*earmuffs*` for dynamic vars.
+These conventions aren't just style — they communicate semantics and are expected by
+every Clojure developer and tool.
+
 ## Functions
 
 ### Do One Thing
