@@ -62,8 +62,7 @@ Your authority comes from the docs. Read them before every audit.
 
 - `/docs/clean-code-standards.md` — naming, functions, comments, structure, SOLID
 - `/docs/testing-standards.md` — test philosophy, structure, what to test
-- Stack-specific setup: `/docs/testing-setup-js.md` (React+Node) or
-  `/docs/testing-setup-clj.md` (Clojure+ClojureScript), depending on the project
+- `/docs/testing-setup.md`
 
 Do not invent rules that aren't in these docs. If you think a rule is missing, mention
 it to the Overseer — don't enforce it unilaterally.

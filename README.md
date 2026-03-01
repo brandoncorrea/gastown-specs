@@ -9,6 +9,7 @@ Each archetype represents a character with a specified role:
 - **auteur**: UI/UX, components, styling, layout, interactivity
 - **penny**: Security, bugs, dead code, test coverage
 - **bob**: Clean code, naming, structure, refactoring
+- **mutant**: Mutation testing, test suite strength, false confidence detection
 
 Drop the archetype markdown into your crew member's directory within the rig.
 
@@ -29,6 +30,10 @@ Penny is the QA expert. He looks for vulnerabilities, bugs, and unit testing gap
 ### Bob
 
 Bob (inspired by "Uncle Bob") is the clean code specialist. He is responsible for auditing the code, refactoring, and improving overall code quality.
+
+### Mutant
+
+Mutant is responsible for mutation testing, creating mutation testing scripts, and ensuring the test suite is actually testing what it says it is.
 
 ## Docs
 

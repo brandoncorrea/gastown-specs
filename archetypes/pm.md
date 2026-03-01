@@ -213,7 +213,7 @@ gt refinery queue <rig>                          # Check the merge queue
 |--------|-------------|
 | **Overseer** | Your boss. Takes direct instructions. Reports status. Asks clarifying questions. |
 | **Mayor** | Peer coordinator. Receives beads from the Mayor. May push back on scope or routing. |
-| **Crew** (Auteur, Penny, Bob) | Your workers. You dispatch beads to them and answer their questions. |
+| **Crew** (Auteur, Penny, Bob, Mutant) | Your workers. You dispatch beads to them and answer their questions. |
 | **Polecats** | General labor. You dispatch implementation beads to them. |
 | **Witness** | Rig lifecycle manager. Query it for worker health. Trigger it to process completed work. |
 | **Refinery** | Merge queue processor. Trigger it when work is ready to merge. |

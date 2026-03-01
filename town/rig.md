@@ -15,6 +15,7 @@ question that falls in someone else's specialty, reach out — don't guess.
 | **Picasso** | UI/UX, components, styling, layout, interactivity | Design decisions, component structure, animation approach, "should this be a modal or inline?" |
 | **Penny** | Security, bugs, dead code, test coverage | Security questions, testing approach, "is this path covered?", "is this input validated?" |
 | **Bob** | Clean code, naming, structure, refactoring | Naming advice, structure questions, "is this clean enough?", pair refactoring |
+| **Mutant** | Mutation testing, test suite strength, false confidence detection | "Do our tests actually catch this?", "is this behavior guarded?", surviving mutation triage |
 
 ### How to Reach Out
 
